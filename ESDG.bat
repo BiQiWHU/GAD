@@ -1,0 +1,6 @@
+python main.py --root D:/Med/dataset/DGDR --algorithm GDRNet --dg_mode ESDG --source-domains APTOS --target-domains DEEPDR FGADR IDRID MESSIDOR RLDR DDR EYEPACS --output results/ESDG_origin/APTOS
+python main.py --root D:/Med/dataset/DGDR --algorithm GDRNet --dg_mode ESDG --source-domains DEEPDR --target-domains APTOS FGADR IDRID MESSIDOR RLDR DDR EYEPACS --output results/ESDG_origin/DEEPDR
+python main.py --root D:/Med/dataset/DGDR --algorithm GDRNet --dg_mode ESDG --source-domains FGADR --target-domains APTOS DEEPDR IDRID MESSIDOR RLDR DDR EYEPACS --output results/ESDG_origin/FGADR
+python main.py --root D:/Med/dataset/DGDR --algorithm GDRNet --dg_mode ESDG --source-domains IDRID --target-domains APTOS  DEEPDR FGADR MESSIDOR RLDR DDR EYEPACS --output results/ESDG_origin/IDRID
+python main.py --root D:/Med/dataset/DGDR --algorithm GDRNet --dg_mode ESDG --source-domains MESSIDOR --target-domains APTOS DEEPDR FGADR IDRID RLDR DDR EYEPACS --output results/ESDG_origin/MESSIDOR
+python main.py --root D:/Med/dataset/DGDR --algorithm GDRNet --dg_mode ESDG --source-domains RLDR --target-domains APTOS DEEPDR FGADR IDRID MESSIDOR DDR EYEPACS --output results/ESDG_origin/RLDR
